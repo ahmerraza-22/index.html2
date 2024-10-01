@@ -8,14 +8,18 @@ body {
     padding: auto;
 }
 
-nav, div{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 110rem;
-    text-align: center;
 }
-
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 110rem;
+}
 .sect-1 {
     display: flex;
     flex-direction: row;
@@ -101,7 +105,7 @@ label {
 .sect-4 {
     display: flex;
     flex-direction: row;
-    font-size: small;
+    font-size: medium;
     font-weight: 300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
